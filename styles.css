@@ -1,0 +1,38 @@
+body{
+
+    background-image: url("images/Design\ sem\ nome.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+
+    
+}
+
+.conteudo1{
+ display: flex;
+ flex-direction: column;
+    margin-left: 10%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.primeiro{
+    display: flex;
+    gap: 7%;
+    margin-right: 7%;
+    margin-top: 10%;
+}
+
+.segundo{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 7%;
+}
+
+.img1{
+    max-width: 40%;
+}
