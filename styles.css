@@ -11,10 +11,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    color: aliceblue;
-
-    
+    color: aliceblue;    
 }
+
 
 header{
     display: block;
@@ -42,8 +41,12 @@ header{
     
 }
 
+.menu a{
+    color: rgb(0, 0, 0);
+}
+
 a{
-    color: black;
+    color: aliceblue;
 }
 
 .conteudo1{
@@ -81,7 +84,68 @@ footer{
     height: 20px;
     bottom: 0;
     width: 100%;
-    margin-top: 60px;
     
 }
 
+.pagina_idolos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.idolo{
+    text-align: center;
+}
+
+
+.imagens_idolos{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.img_ind{
+    width: 450px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    gap: 30px;
+}
+
+.texto_ind{
+    background-color: black;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+.voltar{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 5px 5px;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.individual{
+    margin-top: 2%;
+}
