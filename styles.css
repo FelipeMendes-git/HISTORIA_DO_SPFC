@@ -96,6 +96,8 @@ footer{
     margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
+    max-width: 800px auto;
+    
 }
 
 .idolo{
@@ -147,5 +149,5 @@ footer{
 }
 
 .individual{
-    margin-top: 2%;
+    margin-top: 1%;
 }
